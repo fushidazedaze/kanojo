@@ -28,7 +28,7 @@ const buttonTweet = () => {
 const randomImage = () => {
     num = 5; //画像の枚数
     r = Math.floor(Math.random() * num);
-    IMAGES = "images/" + r + ".png";
+    IMAGES = "./images/" + r + ".png";
     console.log(IMAGES);
     let target = document.querySelector("#target");
     target.src = IMAGES
